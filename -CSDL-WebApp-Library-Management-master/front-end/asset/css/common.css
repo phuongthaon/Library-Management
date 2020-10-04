@@ -1,0 +1,29 @@
+@font-face{
+    src: url("../font/Montserrat/Montserrat-Bold.ttf");
+    font-family: 'DeadLib Font Bold';
+}
+@font-face{
+    src: url("../font/Montserrat/Montserrat-Regular.ttf");
+    font-family: 'DeadLib Font Regular';
+}
+@font-face{
+    src: url("../font/Montserrat/Montserrat-Thin.ttf");
+    font-family: 'DeadLib Font Thin';
+}
+@font-face{
+    src: url("../font/Montserrat/Montserrat-Black.ttf");
+    font-family: 'DeadLib Font Black';
+}
+*{
+    font-family: 'DeadLib Font Regular';
+}
+.login .nameweb{
+    font-family: 'DeadLib Font Black';
+}
+.header .logo .logotext{
+    font-family: 'DeadLib Font Black';
+}
+
+.heading span{
+    font-family: 'DeadLib Font Black';
+}

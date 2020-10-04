@@ -1,0 +1,418 @@
+*{
+    font-family: Montserrat;
+}
+body {
+    font-size: 15px;
+}
+
+
+/* Xử lý Heading*/
+
+.header {
+    display: flex;
+    background-color: #fff;
+    width: 100vw;
+    height: 50px;
+    border-bottom: 2px solid #edeff5;
+}
+
+
+/* Logo và tên ứng dụng */
+
+.logo {
+    width: 500px;
+    height: 50px;
+}
+
+.logo .iconbar {
+    float: left;
+    width: 50px;
+    height: 90%;
+    background-image: url('../icon/menu.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo .logotext {
+    width: 400px;
+    font-size: 24px;
+    font-family: Montserrat;
+    margin-left: 77px;
+    font-weight: bolder;
+    background-position: center;
+    color: #1393ec;
+    line-height: 47px;
+}
+
+
+/* Tên người dùng và profile */
+.user{
+    position: relative;
+    display: flex;
+    margin-right: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.user .username {
+    position: absolute;
+    width: 215px;
+    font-size: 1.5em;
+    font-family: Montserrat;
+    background-position: center;
+    color: #31dc89;
+    line-height: 55px;
+    right: 25px;
+}
+
+.user i.fa.fa-user-circle-o{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: #31cd89;
+    top: 5px;
+    right: 250px;
+}
+
+.user i.fa.fa-caret-down{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #31cd89;
+    top: calc((100% - 22px)/2);
+    right: 5px;
+}
+
+
+/* Xử lý Menu */
+.menu{
+    float: left;
+    width: 250px;
+    height: calc(100vh - 52px);
+    background-color: #2e2e43;
+    font-family: Montserrat;
+}
+
+.menu-content {
+    width: 100%;
+}
+
+
+/* Phần menu có nội dung */
+
+
+.menu-item {
+    display: flex;
+    height: 50px;
+    color: #fff;
+    border-top: 1.5px solid #31dc89;
+}
+.menu-item:hover{
+    cursor: pointer;
+}
+
+
+/* Phần Quản lý độc giả */
+
+.menu-item .menu-item-icon-reader {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/study.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-reader {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Phần Quản lý thủ thư */
+
+.menu-item .menu-item-icon-keeper {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/librarian.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-keeper {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Phần Quản lý tài liệu */
+
+.menu-item .menu-item-icon-doc {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/document.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-doc {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Phần Quản lý kho */
+
+.menu-item .menu-item-icon-kho {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/kho.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-kho {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Phần Quản lý mượn trả */
+
+.menu-item .menu-item-icon-muontra {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/credit-card.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-muontra {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Phần Quản lý nhà xuất bản */
+
+.menu-item .menu-item-icon-nxb {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/hotel.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-nxb {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Phần Quản lý mượn sách */
+
+.menu-item .menu-item-icon-borrow {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/study.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-borrow {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Phần Trợ giúp */
+
+.menu-item .menu-item-icon-help {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../icon/information.png');
+    background-size: 35px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.menu-item .menu-item-text-help {
+    text-align: center;
+    line-height: 47px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    background-color: #31dc89;
+}
+
+
+/* Xử lý Content */
+
+.content {
+    width: calc(100% - 250px);
+    height: calc(100vh - 52px);
+    position: relative;
+    margin-left: 250px;
+}
+
+.content-header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+/* Button Tìm kiếm */
+
+.btnfind {
+    width: 34px;
+    height: 34px;
+    margin-left: 13px;
+    border: none;
+    background-color: #31cd89;
+    border-radius: 8px;
+}
+.btnfind:hover{
+    cursor: pointer;
+}
+.btnfind .fa.fa-search{
+    font-size: 20px;
+    color: #fff;
+}
+.content .content-header form{
+    position: absolute;
+    left: 20px;
+    top: 17px;
+}
+
+.header-input-name{
+    height: 30px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #31cd89;
+}
+#tag{
+    height: 30px;
+    border: 1px solid #31cd89;
+    scrollbar-arrow-color: #31cd89;
+}
+
+/* Button Thêm */
+
+.btnadd {
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #31cd89;
+    border: none;
+    color: #fff;
+    right: 20px;
+    top: 20px;
+}
+.btnadd:hover{
+    cursor: pointer;
+}
+
+/* Nội dung chính */
+
+.content .content-body {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    top: 60px;
+    padding: 10px;
+}
+
+
+/* Định dạng toàn bảng */
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px dashed #31dc89;
+    background-color: #edeff5;
+    width: 100%;
+}
+table thead{
+    background-color: #2e2e43;
+    color: #fff;
+}
+table td,th {
+    border: 1px dashed #31dc89;
+    font-family: Montserrat;
+    padding: 4px;
+}
+table tbody tr:hover {
+    background-color: #bfdfcf;
+    cursor: pointer;
+}
+
+.thaotac{
+    font-size: 20px;
+}
+.thaotac i.fa.fa-trash{
+    color: red;
+}
+.thaotac i.fa.fa-pencil{
+    color: #1393ec;
+}
+.thaotac i.fa.fa-eye{
+    color: #31cd89;
+}
+/* Xử lý Foot */
+
+
+/*.content .content-footer{}

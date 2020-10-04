@@ -1,0 +1,135 @@
+
+/* Định dạng chung cho trang*/
+
+.loginpage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d3ffea;
+
+}
+
+
+/* Khung đăng nhập */
+
+form.login {
+    width: 460px;
+    height: 545px;
+    background-color: #fff;
+    left: calc((50% - 460px)/2);
+    border-radius: 53px;
+    position: absolute;
+    top: calc((100vh - 545px)/2);
+}
+
+
+/* Định dạng dòng "ỨNG DỤNG QUẢN LÝ THƯ VIỆN" */
+
+.login .nameweb {
+    color: #1393ec;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+/* Định dạng dòng "Đăng nhập" */
+
+.login .login-heading {
+    color: #31dc89;
+    font-size: 2.9rem;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 42px;
+}
+
+
+/* Định dạng khung điền thông tin đăng nhập */
+
+.login input {
+    width: 330px;
+    height: 51px;
+    margin: 10px 20px;
+    padding: 1px 12px;
+    font-size: 1.2rem;
+    border: 2px solid #2e2e43;
+    background-color: #d3ffea;
+    border-radius: 15px;
+}
+
+.login-form {
+    padding-left: 30px;
+}
+
+.login input:hover {
+    background-color: #31dc89;
+}
+
+
+/* Khối Submit */
+
+
+
+/* Button Submit */
+
+button#btnSubmit {
+    color: #fff;
+    background-color: #31dc89;
+    border-radius: 11px;
+    font-weight: 1000;
+    width: 115px;
+    height: 58px;
+    font-size: 23px;
+    border: 1px solid;
+    position: absolute;
+    left: calc((100% - 115px)/2);
+    bottom: 120px;
+    cursor: pointer;
+}
+
+
+/* Khối ghi nhớ thông tin */
+
+.remember {
+    display: flex;
+    height: 50px;
+    padding-left: 33px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.remember label {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    font-weight: 600;
+    color: #2e2e43;
+    margin: 24px;
+    margin-top: -3px;
+}
+
+.remember input {
+    font-size: 17px;
+    margin: 25px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #31dc89;
+    border-radius: 5px;
+    margin-top: -3px;
+}
+
+
+/* Hình ảnh */
+
+.image {
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0px;
+    position: absolute;
+    opacity: 0.5;
+}
